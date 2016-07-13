@@ -1,3 +1,41 @@
 body {
-    background-color: blue;
+    background-color: #489cda;
+}
+
+.container {
+    background-color: #f9f1b5;
+    max-width: 600px;
+    margin: auto;
+    padding: 1em;
+}
+
+label {
+    font-size: 1em;
+    color: #002456;
+}
+
+label,
+textarea {
+    display: block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    padding: 0.5em;
+    margin: 0.5em;
+    background-color: #64b9ee;
+    color: white;
+    font-size: 1.2em;
+}
+
+input[type="submit"]:hover {
+    background-color: #edcf2e;
 }
