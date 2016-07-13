@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Form</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
@@ -10,6 +10,36 @@
 </head>
 <body>
     <div class="container">
+
+            <form action="mailto:c.hendricks@ufl.edu" method="post" id="contactform" autocomplete="on">
+
+                <!--<fieldset name="basic" id="basic">
+
+                    <legend>Basic Info</legend>-->
+
+                    <label for="fname">First Name</label>
+
+                    <input type="text" name="fname" id="fname" size="30" placeholder="Enter your first name here" required/>
+
+                    <label for="lname">Last Name</label>
+
+                    <input type="text" name="lname" id="lname" size="30" placeholder="Enter your last name here" required/>
+
+                    <label for="email">Email</label>
+
+                    <input type="email" name="email" id="email" size="30" placeholder="Enter your email here" required/>
+
+                    <label for="comments">Comments</label>
+
+                    <textarea name="comments" id="comments" rows="10" cols="80">Comments, Questions and Concerns</textarea>
+
+                <!--</fieldset>-->
+
+                <input type="submit" name="submit" id="submit" value="Submit Form"/>
+
+                <input type="reset" name="reset" id="reset" value="Reset Form"/>
+
+            </form>
 
     </div>
 
