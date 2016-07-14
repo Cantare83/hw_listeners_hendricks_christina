@@ -1,0 +1,11 @@
+body {
+    background-color: #f3d0a5;
+}
+
+.wrapper {
+    max-width: 980px;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+    color: #463411;
+}
