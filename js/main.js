@@ -19,3 +19,13 @@ function addParagraph() {
 }
 
 firstArticle.addEventListener('click', addParagraph);
+
+//This event listens for a double click on the h1 and then gives //the h1 a class that changes the color of the text.
+
+var header1 = document.getElementById('firstHeader');
+
+function headerOne() {
+    header1.className = 'blue';
+}
+
+header1.addEventListener('dblclick', headerOne);
